@@ -1,0 +1,36 @@
+body {
+  font-family: 'Muli Regular', "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container1 {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  bottom: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.teal {
+  background-color: teal;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.alert-box {
+    position: absolute;
+    top: 0px;
+    left: 5%;
+    height: 500px;
+    width: 500px;
+    z-index: 99;
+}
